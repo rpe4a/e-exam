@@ -1,0 +1,62 @@
+@import "libs/font-awesome/scss/font-awesome";
+@import "mixins/_constants";
+@import "mixins/_mixins";
+@import "mixins/_margin";
+@import "mixins/_padding";
+@import "components/_MultiSelect";
+@import "components/_UserRequest";
+@import "components/_Buttons";
+
+html {
+	font-size: 10px;
+}
+
+.error-border-texteditor {
+	border: 1px solid $Red;
+}
+
+#QuestionBase .table > tbody> tr > .border-td-none {
+	border-left: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+.togglable {
+	font-size: 1.7rem;
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+.ul-style-none {
+	list-style: none;
+	list-style-type: none;
+	padding-left: 3rem;
+}
+
+.togglable-down::after, .togglable-up::after {
+	margin-left: 0.5em;
+}
+
+.togglable-down::before {
+	content: "▼";
+	display: inline-block;
+}
+
+.togglable-up::before {
+	content: "▶";
+	display: inline-block;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.directory-hover:hover {
+	background-color: $Grey;
+}
+
+.warning{
+	background-color: $WhiteYeallow;
+}
+
+
